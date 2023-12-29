@@ -8,4 +8,13 @@ public abstract class KanaAppraiserTester
         // Test instantiation
         KanaAppraiser kana_evaluator_object = new KanaAppraiser();
     }
+
+    public boolean unusedMethod(boolean x) {
+        x = true;
+
+        String foo = null;
+        System.out.println(foo.length());
+
+        return x;
+    }
 }
