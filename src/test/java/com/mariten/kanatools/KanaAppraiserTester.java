@@ -17,4 +17,13 @@ public abstract class KanaAppraiserTester
 
         return x;
     }
+
+    public boolean unusedMethod1(boolean x) {
+        x = true;
+
+        String foo = null;
+        System.out.println(foo.length());
+
+        return x;
+    }
 }
